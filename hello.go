@@ -16,7 +16,7 @@ import "fmt"
 //     return message
 // }
 
-//Declare Variables
+//Declare Variables-----------------------------------------------------------------------------------------------------
 
 // func main(){
 //     var a string
@@ -45,7 +45,7 @@ import "fmt"
 //     fmt.Println(c)
 // }
 
-//Declare Multiple Variables
+//Declare Multiple Variables-----------------------------------------------------------------------------------------------------
 
 // func main(){
 //     var a, b, c, d int = 1, 3, 5 ,7
@@ -78,7 +78,7 @@ import "fmt"
 //     fmt.Println(c)
 // }
 
-//Constant
+//Constant-----------------------------------------------------------------------------------------------------
 
 // const PI = 3.14
 
@@ -103,7 +103,7 @@ import "fmt"
 // 	fmt.Println(C)
 // }
 
-// Output Function
+// Output Function-----------------------------------------------------------------------------------------------------
 
 // func main(){
 // 	var i, j string = "Hello", "World"
@@ -151,7 +151,7 @@ import "fmt"
 //   fmt.Printf("j has value: %v and type: %T", j, j)
 // }
 
-//Formatting Verbs
+//Formatting Verbs-----------------------------------------------------------------------------------------------------
 
 // func main() {
 //   var i = 15.5
@@ -212,7 +212,7 @@ import "fmt"
 //   fmt.Printf("%g\n", i)
 // }
 
-//Basic Data Types
+//Basic Data Types-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // var a bool = true     // Boolean
@@ -226,7 +226,7 @@ import "fmt"
 // fmt.Println("String:  ", d)
 // }
 
-//Boolean
+//Boolean-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // var b1 bool = true // typed declaration with initial value
@@ -240,7 +240,7 @@ import "fmt"
 // fmt.Println(b4) // Returns true
 // }
 
-//Integer
+//Integer-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // var x int = 500
@@ -268,7 +268,7 @@ import "fmt"
 // fmt.Printf("Type: %T, value: %v", x, x)
 // }
 
-//String
+//String-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // 	var txt1 string = "Hello!"
@@ -280,7 +280,7 @@ import "fmt"
 // 	fmt.Printf("Type: %T, value: %v\n", txt3, txt3)
 // }
 
-//Arrays
+//Arrays-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // 	var arr1 = [3]int{1, 2, 3}
@@ -375,7 +375,7 @@ import "fmt"
 //   fmt.Printf("capacity = %d\n", cap(myslice2))
 // }
 
-//Modify Slice
+//Modify Slice-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // prices := []int{10,20,30}
@@ -441,7 +441,7 @@ import "fmt"
 //   fmt.Printf("capacity = %d\n", cap(numbersCopy))
 // }
 
-//Operator
+//Operator-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // 	var (
@@ -452,7 +452,7 @@ import "fmt"
 // 	fmt.Println(sum3)
 // }
 
-//Assignment Operators
+//Assignment Operators-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // var x = 10
@@ -465,7 +465,7 @@ import "fmt"
 // fmt.Println(x)
 // }
 
-//Comparison Operators
+//Comparison Operators-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // var x = 5
@@ -473,7 +473,7 @@ import "fmt"
 // fmt.Println(x>y) // returns 1 (true) because 5 is greater than 3
 // }
 
-// if statement
+// if statement-----------------------------------------------------------------------------------------------------
 
 // func main(){
 // 	if 20 > 18{
@@ -507,7 +507,7 @@ import "fmt"
 // 	}
 // }
 
-// else if statement
+// else if statement-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // 	time := 22
@@ -543,7 +543,7 @@ import "fmt"
 // 	}
 // }
 
-//Nested if statement
+//Nested if statement-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // 	num := 20
@@ -557,7 +557,7 @@ import "fmt"
 // 	}
 // }
 
-// switch statement
+// switch statement-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // 	day := 4
@@ -580,7 +580,7 @@ import "fmt"
 // 	}
 // }
 
-//multi-case switch statement
+//multi-case switch statement-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // 	day := 5
@@ -597,7 +597,7 @@ import "fmt"
 // 	}
 // }
 
-//For loops
+//For loops-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // 	for i := 0; i < 5; i++ {
@@ -661,7 +661,7 @@ import "fmt"
 // 	}
 // }
 
-// Function
+// Function-----------------------------------------------------------------------------------------------------
 
 // func myMessage() {
 // 	fmt.Println("I just got executed!")
@@ -680,8 +680,6 @@ import "fmt"
 // 	myMessage()
 // 	myMessage()
 // }
-
-
 
 // func familyName(fname string) {
 // 	fmt.Println("Hello", fname, "Refsnes")
@@ -703,8 +701,7 @@ import "fmt"
 // 	familyName("Anja", 3)
 // }
 
-
-// Function Returns
+// Function Returns-----------------------------------------------------------------------------------------------------
 
 // func myFunction(x int, y int) int {
 // 	return x + y
@@ -779,8 +776,7 @@ import "fmt"
 // 	fmt.Println(b)
 // }
 
-
-//Recursion Functions
+//Recursion Functions-----------------------------------------------------------------------------------------------------
 
 // func testcount(x int) int {
 //   if x == 11 {
@@ -792,7 +788,7 @@ import "fmt"
 
 // func main(){
 //   testcount(1)
-// } 
+// }
 
 // func factorial_recursion(x float64) (y float64) {
 // 	if x > 0 {
@@ -807,8 +803,7 @@ import "fmt"
 // 	fmt.Println(factorial_recursion(4))
 // }
 
-//struct
-
+//struct-----------------------------------------------------------------------------------------------------
 
 // type Person struct {
 //   name string
@@ -883,8 +878,7 @@ import "fmt"
 //   fmt.Println("Salary: ", pers.salary)
 // }
 
-
-//Maps
+//Maps-----------------------------------------------------------------------------------------------------
 
 // func main() {
 // 	var a = map[string]string{"brand": "Ford", "model": "Mustang", "year": "1964"}
@@ -932,7 +926,6 @@ import "fmt"
 // 	fmt.Println(a)
 // }
 
-
 // func main() {
 // 	var a = make(map[string]string)
 // 	a["brand"] = "Ford"
@@ -974,15 +967,13 @@ import "fmt"
 // 	fmt.Println(b)
 // }
 
-
 func main() {
 	a := map[string]int{"one": 1, "two": 2, "three": 3, "four": 4}
 
 	for k, v := range a {
-	fmt.Printf("%v : %v, ", k, v)
+		fmt.Printf("%v : %v, ", k, v)
 	}
 }
-
 
 // func main() {
 // 	a := map[string]int{"one": 1, "two": 2, "three": 3, "four": 4}
